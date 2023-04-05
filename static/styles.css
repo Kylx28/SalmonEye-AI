@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+::-webkit-scrollbar{
+    width: 0.5rem;
+}
+
+::-webkit-scrollbar-track{
+    background: lightgray;
+}
+
+::-webkit-scrollbar-thumb{
+    background: grey;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #ec9f09;
+}
+
+li, a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #165788;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    
+    align-items: center;
+    align-self: auto;
+    padding: 20px 10%;
+    background-color: #165788;
+}
+
+.home{
+    background-color: #165788;
+}
+
+.home a{
+    background-color: #165788;
+}
+
+.home img{
+    width: 70%;
+    height: 70%;
+}
+
+.home{
+    background-color: #165788;
+    text-decoration: none;
+    text-align: left;
+}
+
+.title{
+    background-color: #165788;
+}
+
+.title li{
+    background-color: #165788;
+}
+
+.title li a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.nav-links{
+    background-color: #165788;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: #165788;
+}
+
+.nav-links li a{
+    color: whitesmoke;
+}
+
+.nav-links li a:hover{
+    color: #ec9f09;
+}
+
+/* index.html */
+
+.caption{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.table-section{
+    padding-top: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+}
+
+.table-section table tr td{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Roboto', sans-serif
+}
+
+.block-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.video{
+    width: 100%;
+}
+
+.time-caption{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.viewing-time{
+    height: 80px;
+    width: 250px;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+
+.rectangle{
+    height: 450px;
+    width: 250px;
+    background-color: lightgray;
+    border-radius: 15px;
+    outline: 10px;
+    outline-color: black;
+}

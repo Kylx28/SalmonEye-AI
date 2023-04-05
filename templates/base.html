@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel = "stylesheet" href = "static\styles.css">
+
+    <!-- Font Style Sheet -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>{% block title %} {% endblock %}</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class = "home">
+                <a href = "index.html"><img src = "static\city-of-toronto-logo-vector-white-300x167.png" style ="background-color: #165788;"></a>
+            </div>
+            <ul class = "nav-links">
+                <div class = "title">
+                    <li><a href = "index.html" style = "background-color: #165788;">Team 133 Salmon Run</a></li>
+                </div>
+                <li><a href = "livestream.html" style = "background-color: #165788;">Livestream</a></li>
+                <li><a href = "livestream.html" style = "background-color: #165788;">Videos</a></li>
+                <li><a href = "education_events.html" style = "background-color: #165788;">Education and Events</a></li>
+                <li><a href = "about_us.html" style = "background-color: #165788;">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    {% block content %} {% endblock %}
+</body>
+</html>

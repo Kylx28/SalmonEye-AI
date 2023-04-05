@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block title %} Team 133 Salmon Run {% endblock %}
+{% block content %}
+
+
+<div class = "caption">
+    The Toronto Salmon Run is in Season!
+</div>
+
+<div class = "table-section">
+    <table style = "text-align: center;">
+        <tr>
+            <td><div class = "description">
+                    The Toronto Salmon Run is an annual migratory event that occurs every fall. Salmon migrate upstream to find their   
+                    spawning location. Watch the salmon run at Etienne Brulé Park live from the comfort of your own home! Curious about
+                    the salmon run? See the <b><i>Education & Events</i></b> tab for more information.
+
+                </div>
+            </td>
+            <td>
+                <div class = "time-caption">
+                    Recommended Viewing Time
+                </div>
+                <div class = "viewing-time">
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td> 
+                <div class = "block-title">
+                    Livestream from Etienne Brulé Park
+                </div>
+                <div class="video">
+                    <div class="row">
+                        <div class="col-lg-8  offset-lg-2">
+                            <img src="{{ url_for('video_feed') }}" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class = "block-title">
+                    Live Update
+                </div>
+                <div class = "rectangle">
+                    
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+
+{% endblock %}
