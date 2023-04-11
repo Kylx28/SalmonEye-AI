@@ -15,7 +15,6 @@ def gen_frames():  # generate frame by frame from camera
         success, frame = camera.read() # read the camera frame
         if not success:
             camera.set(cv2.CAP_PROP_POS_FRAMES, 0) # repeat video
-            continue
         else:
             results = model.predict(source=frame)
             annotated_frame = results[0].plot()
@@ -36,3 +35,4 @@ def index():
 
 if __name__ == '__main__':
     app.run(debug=True)
+    camera.release()
