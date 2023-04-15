@@ -10,7 +10,7 @@
 <div class = "table-section">
     <table style = "text-align: center;">
         <tr>
-            <td><div class = "description">
+            <td><div class = "description" style = "font-size: 20px;">
                     The Toronto Salmon Run is an annual migratory event that occurs every fall. Salmon migrate upstream to find their   
                     spawning location. Watch the salmon run at Etienne Brulé Park live from the comfort of your own home! Curious about
                     the salmon run? See the <b><i>Education & Events</i></b> tab for more information.
@@ -22,7 +22,9 @@
                     Recommended Viewing Time
                 </div>
                 <div class = "viewing-time">
-
+                    <div class = "text" style = "background-color: transparent;">
+                        To Be Added
+                    </div>
                 </div>
             </td>
         </tr>
@@ -44,7 +46,11 @@
                     Live Update
                 </div>
                 <div class = "rectangle">
-                    
+                    <!-- <div hx-get = "/jump_message" hx-trigger = "every 0.8s"></div> -->
+                    <div hx-get = "/jump_message" hx-trigger = "every 0.8s" hx-target = "#jump-message"></div>
+                    <div id = "jump-message"></div>
+                    <div hx-get = "/jump_time" hx-trigger = "every 0.8s" hx-target = "#time-message"></div>
+                    <div id = "time-message"></div>
                 </div>
             </td>
         </tr>
